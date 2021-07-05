@@ -1,0 +1,23 @@
+.pagehead {
+    color: rgb(230, 187, 134);
+}
+
+.container {
+    margin: auto;
+    max-width: 500px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navlinks {
+    display: flex;
+    list-style: none;
+    padding: auto;
+}
+
+.navitem {
+padding-right: 2rem;
+}
+
+.navtext {
+    color: cadetblue;
+}
