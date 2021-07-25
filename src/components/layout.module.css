@@ -21,3 +21,9 @@ padding-right: 2rem;
 .navtext {
     color: cadetblue;
 }
+
+.site-title {
+    font-size: 2.5rem;
+    color:rgb(47, 197, 134);
+    font-weight: 800;
+}
