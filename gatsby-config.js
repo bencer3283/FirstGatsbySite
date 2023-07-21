@@ -16,6 +16,7 @@ module.exports = {
         path: `${__dirname}/blogs`
       }
     },
-    'gatsby-plugin-mdx'
+    'gatsby-plugin-mdx',
+    'gatsby-transformer-sharp'
   ],
 }
