@@ -1,5 +1,10 @@
 import * as React from 'react';
 import { Link } from 'gatsby';
+import { 
+    container,
+    heading,
+    navLinks,
+    navLinkItem } from './components/layout.module.css';
 
 class Layout extends React.Component {
     constructor(props) {
@@ -7,15 +12,15 @@ class Layout extends React.Component {
     }
     render() {
         return(
-            <div>
+            <div className={container}>
                 <nav>
-                    <ul>
-                        <li><Link to='/'>Home</Link></li>
-                        <li><Link to='/about'>About</Link></li>
+                    <ul className={navLinks}>
+                        <li className={navLinkItem}><Link to='/'>Home</Link></li>
+                        <li className={navLinkItem}><Link to='/about'>About</Link></li>
                     </ul>
                 </nav>
                 <main>
-                    <h1>{this.props.pageTitle}</h1>
+                    <h1 className={heading}>{this.props.pageTitle}</h1>
                     {this.props.children}
                 </main>
             </div>
