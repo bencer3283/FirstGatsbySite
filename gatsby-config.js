@@ -8,6 +8,14 @@ module.exports = {
   },
   plugins: [
     'gatsby-plugin-image',
-    'gatsby-plugin-sharp'
+    'gatsby-plugin-sharp',
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: `blogs`,
+        path: `${__dirname}/blogs`
+      }
+    },
+    'gatsby-plugin-mdx'
   ],
 }
