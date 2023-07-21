@@ -1,5 +1,6 @@
 import * as React from 'react';
 import Layout from './layout';
+import { StaticImage } from 'gatsby-plugin-image';
 
 class IndexPage extends React.Component {
   constructor(props) {
@@ -9,6 +10,7 @@ class IndexPage extends React.Component {
     return (
       <Layout pageTitle='Home'>
         <p>This is created by following the official tutorial.</p>
+        <StaticImage src='https://i.imgur.com/xvH1xl5.jpg' alt='personal image'/>
       </Layout>
     )
   }
