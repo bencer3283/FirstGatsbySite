@@ -11,10 +11,16 @@
 .nav-links {
     display: flex;
     list-style: disc;
-    padding-left: 0;
+    padding-left: 1rem;
 }
 
 .nav-link-item {
-    padding-left: 2rem;
+    padding-left: 0rem;
     padding-right: 2rem;
+}
+
+.site-title {
+    font-size: x-large;
+    font-weight: 600;
+    margin: 3rem 0;
 }

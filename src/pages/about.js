@@ -1,5 +1,6 @@
 import * as React from 'react';
 import Layout from './layout';
+import Seo from './components/seo';
 
 class AboutPage extends React.Component {
     constructor(props) {
@@ -16,7 +17,7 @@ class AboutPage extends React.Component {
 
 export const Head = () => (
     <>
-    <title>About</title>
+    <Seo title='About' />
     <meta name='Po Sheng Cheng' content='personal experiences' /></>
 )
 
